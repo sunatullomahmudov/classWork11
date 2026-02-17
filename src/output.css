@@ -200,6 +200,9 @@
   .mt-\[100px\] {
     margin-top: 100px;
   }
+  .mt-\[150px\] {
+    margin-top: 150px;
+  }
   .mt-\[200px\] {
     margin-top: 200px;
   }
@@ -211,6 +214,12 @@
   }
   .ml-\[8\%\] {
     margin-left: 8%;
+  }
+  .ml-\[8\] {
+    margin-left: 8;
+  }
+  .ml-\[10\%\] {
+    margin-left: 10%;
   }
   .ml-\[50px\] {
     margin-left: 50px;
@@ -257,14 +266,41 @@
   .h-\[350px\] {
     height: 350px;
   }
+  .h-\[580\] {
+    height: 580;
+  }
+  .h-\[580px\] {
+    height: 580px;
+  }
   .w-\[0px\] {
     width: 0px;
+  }
+  .w-\[00px\] {
+    width: 00px;
+  }
+  .w-\[3px\] {
+    width: 3px;
   }
   .w-\[100\%\] {
     width: 100%;
   }
+  .w-\[100\] {
+    width: 100;
+  }
+  .w-\[170px\] {
+    width: 170px;
+  }
+  .w-\[180px\] {
+    width: 180px;
+  }
+  .w-\[190px\] {
+    width: 190px;
+  }
   .w-\[220px\] {
     width: 220px;
+  }
+  .w-\[230px\] {
+    width: 230px;
   }
   .w-\[260px\] {
     width: 260px;
@@ -274,6 +310,9 @@
   }
   .w-\[350px\] {
     width: 350px;
+  }
+  .w-\[364px\] {
+    width: 364px;
   }
   .w-\[380px\] {
     width: 380px;
@@ -335,6 +374,12 @@
   .gap-30 {
     gap: calc(var(--spacing) * 30);
   }
+  .gap-\[3\] {
+    gap: 3;
+  }
+  .gap-\[3oopx\] {
+    gap: 3oopx;
+  }
   .gap-\[5px\] {
     gap: 5px;
   }
@@ -352,6 +397,12 @@
   }
   .gap-\[100px\] {
     gap: 100px;
+  }
+  .gap-\[300\] {
+    gap: 300;
+  }
+  .gap-\[300px\] {
+    gap: 300px;
   }
   .rounded-\[5px\] {
     border-radius: 5px;
@@ -381,6 +432,9 @@
   }
   .bg-\[\#69B99D\] {
     background-color: #69B99D;
+  }
+  .bg-\[\#F9F9F9\] {
+    background-color: #F9F9F9;
   }
   .bg-\[\#f9f9f9\] {
     background-color: #f9f9f9;
@@ -435,6 +489,14 @@
   }
   .text-\[350px\] {
     font-size: 350px;
+  }
+  .font-\[30px\] {
+    --tw-font-weight: 30px;
+    font-weight: 30px;
+  }
+  .font-\[40px\] {
+    --tw-font-weight: 40px;
+    font-weight: 40px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -520,6 +582,11 @@
   .max-mobile\:mt-\[30px\] {
     @media (width < 510px) {
       margin-top: 30px;
+    }
+  }
+  .max-mobile\:mt-\[50px\] {
+    @media (width < 510px) {
+      margin-top: 50px;
     }
   }
   .max-mobile\:mt-\[200px\] {
